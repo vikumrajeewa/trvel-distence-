@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   float avg,dis,tit;
+      printf("input Distance travel (M)\n");
+      scanf("%f",&dis);
+      printf("input time taken (S)\n");
+      scanf("%f",&tit);
+      avg=dis/tit;
+      printf("Average speed is %.2f  (ms-1)",avg);
+}
